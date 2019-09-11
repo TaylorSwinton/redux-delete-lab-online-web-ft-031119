@@ -5,7 +5,7 @@ class Band extends Component {
   render() {
     return(
       <div>
-        <span>{props.text}</span><button onClick={() => props.delete(props.todo.id)}>Delete</button>
+        <p>Band Component</p>
       </div>
     );
   }
